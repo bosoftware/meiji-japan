@@ -64,11 +64,11 @@ Modified the index.html and configure all values, see a example below:
       config.directLinks = true;
       config.showGrid = true;
     </script>
-    
+  <!-- END OF YOUR DETAILS -->    
     
 
 
-#HOW TO RUN
+# HOW TO RUN
 
 Run following command in this project root folder
 
