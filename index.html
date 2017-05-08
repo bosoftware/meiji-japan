@@ -53,11 +53,13 @@
     <div ng-hide="listHide" class="ng-hide" id="exhibition-highlights">
       EXHIBITION HIGHLIGHTS
     </div>
-    <div ng-hide="listHide" class="ng-hide" id="exhibition-credit">
-      <p><a>Melodrama in Meiji Japan</a></p>
-      <p>National Library of Australia, Canberra</p>
+    <div ng-hide="listHide" class="ng-hide" id="exhibition-footer">
+      <h1>Visit the Exhibition</h1>
+      <h2><a href="http://45.76.118.247:9000">Melodrama in Meiji Japan</a></h2>
+      <p>National Library Australia, Canberra</p>
       <p>24th May to 27th August 2017</p>
     </div>
+
     <ul ng-hide="listHide" class="ng-hide" id="lists">
       <!-- CHANGE THIS TO LIST THE TROVE LISTS THAT MAKE UP YOUR EXHIBITION -->
         <li><a class="list-link" href="http://trove.nla.gov.au/list?id=102074">Historical Stories</a></li>
@@ -70,8 +72,8 @@
     <script>
       // ADD YOUR TROVE API KEY
       var troveAPIKey = "cg6sn8lpjp7o8q19";
-      //var troveApiUrl="http://api.trove.nla.gov.au";
-      var troveApiUrl="https://trove-proxy.herokuapp.com/api";
+      var troveApiUrl="http://api.trove.nla.gov.au";
+      //var troveApiUrl="https://trove-proxy.herokuapp.com/api";
       var config = {};
       config.listSnippet = 50;
       config.directLinks = true;
@@ -103,9 +105,9 @@
 
 
 
-<script src="scripts/vendor.49b828bd.js"></script>
+<script src="scripts/vendor.bc39aa16.js"></script>
 
-<script src="scripts/scripts.cb0d714e.js"></script>
+<script src="scripts/scripts.b3ab7253.js"></script>
 
 <script src="js/featured_resource_switchcontrol.js"></script>
 <script src="js/primary_slider_main.js"></script>
